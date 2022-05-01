@@ -7,10 +7,19 @@ pin_to_circuit = 7
 import subprocess
 from gpiozero import LED
 from gpiozero import Button
-
+import sys
 led = LED(27)
 button = Button(17)
 
+def stop_button() :
+    GPIO.setwarnings(False)
+    GPIO.setup(11, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+    while True :
+        input_state = GPIO.input(11)
+        if input_state == False :
+            sys.exit()
+        else :
+            break
 
 def rc_time(pin_to_circuit) :
     count = 0
@@ -27,6 +36,7 @@ def rc_time(pin_to_circuit) :
     elif count < 2000 :
         led.off()
     count = count * 0
+    stop_button()
 
 def main() :
 
@@ -35,6 +45,7 @@ def main() :
         if loops == 0 :
             button.wait_for_press()
             loops += 1
+            time.sleep(3)
         elif loops > 0  :
             rc_time(pin_to_circuit)
         
