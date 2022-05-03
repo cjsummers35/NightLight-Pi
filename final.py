@@ -33,6 +33,7 @@ def rc_time(pin_to_circuit) :
    
     while (GPIO.input(pin_to_circuit) == GPIO.LOW) :
         count += 1
+    # changing the range of the numbers in the if statment changes the sensetivity of the light.
     if count > 3000 :
         subprocess.run(['./test']) # test is a bash script file on my system that prints date, time, and "it is dark"
         led.on()
