@@ -32,7 +32,7 @@ First set up the button and LED :
 
 ![Screenshot (30)](https://user-images.githubusercontent.com/100862017/166481176-0b2c8521-4cd4-4b0c-a0de-bba1df3d72d5.png)
 
-Seccond set up the photoresistor and capacitor :
+Seccond set up the photoresistor and capacitor make sure that the white line on the capacitor is away from the photoresitor :
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/100862017/166481221-26ef2c18-8396-4bb0-ab8f-220fb1fee291.png)
 
