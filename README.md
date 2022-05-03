@@ -26,5 +26,8 @@ When running the program will register light and if it is dark it prints "it's d
 
 ## Circuit of night light:
 
-![Screenshot (25)](https://user-images.githubusercontent.com/100862017/165801289-eb8746e4-01eb-4155-b78b-5ebce006e085.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/100862017/166481176-0b2c8521-4cd4-4b0c-a0de-bba1df3d72d5.png)
 
+![Screenshot (31)](https://user-images.githubusercontent.com/100862017/166481221-26ef2c18-8396-4bb0-ab8f-220fb1fee291.png)
+
+![Screenshot (29)](https://user-images.githubusercontent.com/100862017/166481276-5472135d-8c3f-4398-9257-5447d25cee2c.png)
