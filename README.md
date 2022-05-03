@@ -28,7 +28,7 @@ When running the program will register light and if it is dark it prints "it is 
 
 ## Circuit of night light:
 
-First set up the button and LED :
+First set up the button and LED make sure the anode of the led goes to the resistor :
 
 ![Screenshot (30)](https://user-images.githubusercontent.com/100862017/166481176-0b2c8521-4cd4-4b0c-a0de-bba1df3d72d5.png)
 
