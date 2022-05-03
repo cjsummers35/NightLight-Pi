@@ -10,7 +10,7 @@ If the light gets too dark the program will print some info from a test file on 
 
 In the LED_button.py there is code that allows for an led to be turned on and off with a button.
 
-The test file has a bash script that prints the time and date and "it is dark." Note: in order to run the test file it needs to be exicutable, chmod can help with this.
+The test file has a bash script that prints the time and date and "it is dark." Note: in order to run the test file it needs to be executable, chmod can help with this.
 
 The final.py is a merged version of the light.py and led_button.py where the light sensor controls the led power.
 In the final.py the program wont run until the button is pushed and if pushed again the program will end.
