@@ -26,8 +26,14 @@ When running the program will register light and if it is dark it prints "it's d
 
 ## Circuit of night light:
 
+First set up the button and LED :
+
 ![Screenshot (30)](https://user-images.githubusercontent.com/100862017/166481176-0b2c8521-4cd4-4b0c-a0de-bba1df3d72d5.png)
 
+Seccond set up the photoresistor and capacitor :
+
 ![Screenshot (31)](https://user-images.githubusercontent.com/100862017/166481221-26ef2c18-8396-4bb0-ab8f-220fb1fee291.png)
+
+After both are set up it should be something like this :
 
 ![Screenshot (29)](https://user-images.githubusercontent.com/100862017/166481276-5472135d-8c3f-4398-9257-5447d25cee2c.png)
