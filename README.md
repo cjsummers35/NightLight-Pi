@@ -14,7 +14,7 @@ The test file has a bash script that prints the time and date and "it is dark." 
 
 The final.py is a merged version of the light.py and led_button.py where the light sensor controls the led power.
 In the final.py the program wont run until the button is pushed and if pushed again the program will end.
-When running the program will register light and if it is dark it prints "it is dark" and the led turns on and when dark the led turns off.
+When running the program will register light and if it is dark it prints "it is dark" and the led turns on and when bright the led turns off.
 
 ## Components:
 - Rasperry Pi
